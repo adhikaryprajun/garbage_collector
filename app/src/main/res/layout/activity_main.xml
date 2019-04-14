@@ -22,7 +22,7 @@
             android:ems="10"
             android:inputType="textPersonName"
             android:hint="Name"
-            android:text="abc@gmail.com"/>
+            />
 
         <EditText
             android:id="@+id/etPassword"
@@ -31,7 +31,7 @@
             android:ems="10"
             android:inputType="textPassword"
             android:hint="Password"
-            android:text="123456"/>
+            />
 
         <TextView
             android:id="@+id/tvResponse"
@@ -43,7 +43,12 @@
             android:id="@+id/btnLogin"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="LOGIN"/>
+            android:text="LOGIN"
+
+            android:background="#556B2F"
+            android:textColor="#fff"
+            android:textStyle="bold"
+            />
 
     </LinearLayout>
 

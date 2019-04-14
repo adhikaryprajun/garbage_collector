@@ -56,9 +56,13 @@
         android:id="@+id/btnListUpdateStatus"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Update"
+        android:text="PICK UP"
         android:layout_marginTop="8dp"
-        android:layout_marginRight="8dp"/>
+        android:layout_marginRight="8dp"
+
+        android:background="#556B2F"
+        android:textColor="#fff"
+        android:textStyle="bold"/>
 
 
 </LinearLayout>
