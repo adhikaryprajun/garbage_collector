@@ -38,6 +38,7 @@ public class EmployeeActivity extends AppCompatActivity {
         setContentView(R.layout.activity_employee);
 
         session = (Session) getIntent().getSerializableExtra("session");
+
         Log.d("SESSION", session.getUserId());
 
         lvUploads = (ListView) findViewById(R.id.lvUploads);
